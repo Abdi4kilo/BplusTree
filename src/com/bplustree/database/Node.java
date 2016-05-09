@@ -16,6 +16,7 @@ public class Node {
 		third=null;
 		fourth=null;
 		parentNode=null;
+		tuple[0]="";
 	}
 	public boolean isFull(){
 		if(counter==3)
@@ -27,6 +28,9 @@ public class Node {
 	}
 	public void increament() {
 		 counter++;
+	}
+	public void setCounter(int counter){
+		this.counter=counter;
 	}
 	public int[] getKeys() {
 		return keys;
